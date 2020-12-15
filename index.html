@@ -4,7 +4,7 @@
         <title> The Amazing Website About Kai</title>
             <style>
     body {
-        background: rgb(125, 198, 205);
+        background: rgb(0, 46, 250);
         color: rgb(45, 45, 45);
         padding: 10px;
         font-family: arial;
@@ -16,8 +16,9 @@
 
     /* navigation menu */
     nav {
-        background: rgb(239, 80, 41);
+        background: rgb(0, 0, 0);
         margin: 0 auto;
+        margin-bottom: 20px;
         display: flex;
         padding: 10px;
     }
@@ -68,40 +69,39 @@
     
     <body>
       <!-- All content goes here -->
-    <div> 
-        <nav>
+    <div id="all-contents">
+      <nav>
             <h1>Kai's Short Website</h1>
-            <ul>
-             <li>
+            <ul id="nav-ul">
+             <li class="nav-li">
             <a href="index.html"> Home </a>
              </li>
-             <li>
+             <li class="nav-li">
               <a href="portfolio.html"> Portfolio </a>
              </li>
               </ul>
         </nav>
-
-     <main>
-       </main>
-      </div>
-    </body>
+        <main>
+        </main>
+     </div>
+     </body>
 </html>
 <main>
     <!-- Sidebar section -->
-    <div>
+    <div class="sidebar">
         <img src="kai.JPG"> 
     </div>
 
     <!-- Content section -->
-    <div>
+    <div class ="content">
         <h2>Kai Lavigne</h2>
         <p>Student at Northshore Highschool</p>
         <!-- Interests section -->
-        <div>
+        <div id="interests">
             <h3>Interests</h3>
             <ul>
                 <li>Love playing soccer.</li>
-                <li>PLaying games with friends</li>
+                <li>Playing games with friends</li>
                 <li>Eating plenty of food</li>
             </ul>
         </div>
