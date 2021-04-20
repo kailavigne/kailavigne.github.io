@@ -30,9 +30,13 @@ var level01 = function (window) {
         var hitZoneSize = 25;
         var damageFromObstacle = 10;
         var sawBladeHitZone = game.createObstacle(hitZoneSize, damageFromObstacle);
+       
+        sawBladeHitZone.x = 400;
+        sawBladeHitZone.y = 450;
+        game.addGameItem(sawBladeHitZone);    
         
-        
-        
+        var obstacleImage = draw.bitmap('img/Small Rock.png');
+        sawBladeHitZone.addChild(obstacleImage);
         // DO NOT EDIT CODE BELOW HERE
     }
 };
