@@ -40,9 +40,9 @@ var background = function (window) {
             background.addChild(backgroundFill);
             
             // TODO: 3 - Add a moon and starfield
-            var moon = draw.bitmap('img/moon.png');
+            var moon = draw.bitmap('img/Earth.png');
                 moon.x = 1050;
-                moon.y = 0;
+                moon.y = groundY- 500;
                 moon.scaleX = 1.0;
                 moon.scaleY = 1.0;
                 background.addChild(moon);
@@ -67,7 +67,7 @@ var background = function (window) {
             // TODO 4: Part 1 - Add a tree
             tree = draw.bitmap('img/Better Asteroid.png');
                 tree.x = 1000;
-                tree.y = 10;
+                tree.y = groundY-550;
                 background.addChild(tree)
             
         } // end of render function - DO NOT DELETE
